@@ -8,6 +8,8 @@ background-color: rgb(52, 0, 240);
 color: rgb(242, 243, 243);
 display: flex;
 justify-content: space-around ;
+align-items: center;
+padding: 24px 0;
 }
 
 .cabecalho-imagem{
@@ -17,4 +19,13 @@ justify-content: space-around ;
     .cabecalho-imagem{
         display: inline-block;
         margin: 0 16px;
+    font-size: 24px;
+    }
+
+    .escola-imagem{
+        width: 25%;
+    }
+
+    .escola{
+        background-image: linear-gradient crg(52, 0, 240);
     }
